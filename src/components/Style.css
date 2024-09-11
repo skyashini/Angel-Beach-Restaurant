@@ -1,0 +1,52 @@
+/* Sidebar background and text color */
+.sidebar {
+    background-color: #343a40; /* Dark background for the sidebar */
+    color: #f8f9fa; /* Light text color */
+    height: 90vh;
+  }
+  
+  .sidebar .brand-section {
+    display: flex;
+    align-items: center;
+    color: #f8f9fa; /* Light text color for brand section */
+  }
+  
+  .sidebar .brand-icon {
+    color: #17a2b8; /* Brand icon color */
+  }
+  
+  .sidebar .brand-name {
+    font-weight: bold;
+  }
+  
+  .sidebar .divider {
+    border-color: #495057; /* Darker border color for the divider */
+  }
+  
+  /* List group item styles */
+  .sidebar .list-group-item {
+    color: #f8f9fa; /* Light text color */
+    background-color: #343a40; /* Dark background for list items */
+    border: none; /* Remove border */
+    border-radius: 0; /* Remove border radius */
+  }
+  
+  .sidebar .list-group-item:hover {
+    background-color: #495057; /* Lighter background on hover */
+    color: #ffffff; /* White text on hover */
+  }
+  
+  /* Icon color */
+  .sidebar .bi {
+    color: #17a2b8; /* Color for icons */
+  }
+  
+  .sidebar .list-group-item span {
+    font-size: 1rem;
+  }
+  
+  /* Hover state for links */
+  .sidebar .list-group-item a {
+    color: inherit; /* Ensure link inherits the text color */
+  }
+  

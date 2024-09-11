@@ -1,0 +1,120 @@
+/* Custom Navbar Styling */
+/* Custom Navbar Styling */
+.custom-navbar {
+    background-color: #000000; /* Solid dark blue */
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.toggle-icon {
+    color: #3c3838;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.toggle-icon:hover {
+    transform: scale(1.1);
+    color: #ffdd57;
+}
+
+/* Navbar Collapse Button */
+.navbar-toggler {
+    border-color: transparent;
+}
+
+.navbar-toggler .bi-justify {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+/* Navbar Links */
+.nav-link {
+    color: #000000;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #727068;
+    background-color: rgba(248, 248, 248, 0.916);
+    border-radius: 5px;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #283e51;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Dropdown Menu */
+.custom-dropdown .dropdown-item {
+    color: #877a7a;
+    padding: 10px 20px;
+    font-size: 0.95rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-dropdown .dropdown-item:hover {
+    background-color: #ffdd57;
+    color: #283e51;
+}
+
+.user-link {
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+}
+
+.user-link::after {
+    content: '';
+    display: inline-block;
+    margin-left: 0.5rem;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    padding: 4px;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+}
+
+.user-link[aria-expanded="true"]::after {
+    transform: rotate(-135deg);
+}
+
+/* Responsive Fixes */
+@media (max-width: 576px) {
+    .custom-navbar {
+        text-align: center;
+    }
+
+    .navbar-nav {
+        text-align: left;
+    }
+
+    .nav-link {
+        padding: 1rem;
+        display: block;
+    }
+
+    .dropdown-menu {
+        position: static;
+        float: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+.custom-navbar-bg {
+    background-color: #4029039a; /* Dark Blue */
+    background-image: linear-gradient(90deg, #7d694b, #9c7c44); /* Gradient Option */
+}
+
